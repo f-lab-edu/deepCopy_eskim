@@ -1,5 +1,3 @@
-'use strict';
-
 
 function deepCopy(obj  = null) {
     if(typeof obj !== 'object' || obj === null) return obj;
